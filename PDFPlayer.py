@@ -5,7 +5,7 @@ import PyPDF2
 engineio = pyttsx3.init()
 voices = engineio.getProperty('voices')
 engineio.setProperty('rate', 130)
-engineio.setProperty('voice',voices[0].id)
+engineio.setProperty('voice',voices[1].id)
 #############################
 def speak(text): #Function to speak text
     engineio.say(text)
